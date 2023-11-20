@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setting</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page d-flex">
+        <div class="side-bar bg-white rad-6 p-20 position-relative">
+            <h3 class="mt-0 position-relative  txt-c capitalize ">elzero</h3>
+            <ul class="fs-14" >
+                <li>
+                    <a href="index.html" class="capitalize c-black d-flex p-10 align-center  rad-6">
+                        <i class="fa-regular fa-chart-bar fa-fw "></i>
+                        <span class="ml-10">dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="setting.html" class="capitalize c-black d-flex rad-6 active p-10 align-center">
+                        <i class="fa-solid fa-gear"></i>
+                        <span class="ml-10">setting</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.html" class="capitalize c-black d-flex  rad-6 p-10 align-center">
+                        <i class="fa-regular fa-user"></i>
+                        <span class="ml-10">profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="projects.html" class="capitalize c-black d-flex p-10 align-center">
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <span class="ml-10">projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="courses.html" class="capitalize c-black d-flex p-10 align-center">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <span class="ml-10">courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="friends.html" class="capitalize c-black d-flex p-10 align-center">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span class="ml-10">friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="files.html" class="capitalize c-black d-flex p-10 align-center">
+                        <i class="fa-regular fa-file"></i>
+                        <span class="ml-10">files</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="plans.html" class="capitalize c-black d-flex p-10 align-center">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span class="ml-10">plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content w-full">
+            <div class="header d-flex align-center space-between p-15 w-full bg-white">
+             <div class="search  d-flex align-center rad-10">
+                 <i class="fa-solid fa-magnifying-glass "></i>
+                 <input type="search" placeholder="Type A Keyword" class="rad-6">
+             </div>
+             <div class="notification d-flex align-center">
+                <i class="fa-regular fa-bell position-relative"></i>
+                <img src="imgs/avatar.png" alt="">
+             </div>
+            </div>
+             <h1 class="capitalize position-relative ">settings</h1>
+            <div class="setting-page d-grid gap-20 gap-10-mob ml-20 mr-20 mb-20">
+                <div class="site-control  rad-10 p-20 bg-white">
+                    <h2 class="mt-0 mb-10 capitalize "> site control</h2>
+                    <p class="c-grey fs-15 mt-0" >Control The Website If There Is Maintenance</p>
+                    <div class="website-control between-flex">
+                      <div>
+                        <p class="m-0 mb-5">website control</p>
+                        <span class="c-grey fs-14">Open/Close Website And Type The Reason</span>
+                      </div>
+                      <label for="checkbox">
+                          <input type="checkbox" class="toggle-checkbox" id="checkbox" checked>
+                          <div class="toggle-switch position-relative pointer"></div>
+                      </label>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="close message content" class=" w-full rad-10 p-10 capitalize mt-25 " ></textarea>
+                </div>
+                <div class="general rad-10 p-20 bg-white">
+                    <h2 class="mt-0 mb-10 capitalize"> general info</h2>
+                    <p class="c-grey fs-15 mt-0 mb-20" >General Information About Your Account</p>
+                    <form action="">
+                        <label for="f-name" class="d-block c-grey mb-10 fs-14">First Name</label>
+                        <input type="text" id="f-name" placeholder="First Name" class="p-10 rad-6 w-full mb-10 ">
+                        <label for="l-name" class="d-block c-grey mb-10 fs-14">Last Name</label>
+                        <input type="text" id="l-name" placeholder="Last Name" class="p-10 rad-6 w-full mb-10">
+                        <label for="email" class="d-block c-grey mb-10 fs-14">Email</label>
+                        <div class="change d-flex space-between align-center">
+                        <input type="email" id="email" placeholder="o@ss.na" class="p-10 rad-6 w-full fs-14" disabled>
+                        <a href="#" class="c-blue ml-20 capitalize">change</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="security rad-10 p-20 bg-white">
+                    <h2 class="mt-0 mb-10 capitalize "> security info</h2>
+                    <p class="c-grey fs-15" >Security Information About Your Account</p>
+                    <div class="item between-flex">
+                        <div class="text mb-20">
+                            <p class="fs-16 mb-5 capitalize">password</p>
+                            <span class="c-grey fs-14">Last Change On 25/10/2021</span>
+                        </div>
+                        <a href="#" class="bg-blue btn-shape capitalize c-white">change</a>
+                    </div>
+                    <div class="item between-flex border-top border-bottom">
+                        <div class="text mb-20">
+                            <p class="fs-16 mb-5 capitalize">Two-Factor Authentication</p>
+                            <span class="c-grey fs-14">Enable/Disable The Feature</span>
+                        </div>
+                        <label for="checkbox2">
+                            <input type="checkbox" class="toggle-checkbox" id="checkbox2" checked></input>
+                            <div class="toggle-switch position-relative pointer"></div>
+                        </label>
+                    </div>
+                    <div class="item between-flex">
+                        <div class="text mb-20">
+                            <p class="fs-16 mb-5 capitalize">Devices</p>
+                            <span class="c-grey fs-14">Check The Login Devices List</span>
+                        </div>
+                        <a href="#" class="btn-shape capitalize bg-eee c-black">devices</a>
+                    </div>
+                </div>
+                <div class="social rad-10 p-20 bg-white">
+                    <h2 class="mt-0 mb-10 capitalize "> Social info</h2>
+                    <p class="c-grey fs-15" >Social Media Information </p>
+                    <div class="center-flex mb-20">
+                    <i class="fa-brands fa-twitter c-grey center-flex"></i>
+                    <input type="text" placeholder="Twitter Username" class=" w-full c-grey   ">
+                    </div>
+                    <div class="center-flex mb-20">
+                        <i class="fa-brands fa-facebook c-grey center-flex "></i>
+                        <input type="text" placeholder="Facebook Username" class=" w-full c-grey p-10 ">
+                    </div>
+                    <div class="center-flex mb-20">
+                        <i class="fa-brands fa-linkedin c-grey center-flex "></i>
+                        <input type="text" placeholder="linkedin Username" class=" w-full c-grey ">
+                    </div>
+                    <div class="center-flex mb-20">
+                        <i class="fa-brands fa-youtube c-grey p-10 center-flex"></i>
+                        <input type="text" placeholder="Youtube Username" class=" w-full c-grey  ">
+                    </div>
+                </div>
+                <div class="widgets rad-10 p-20 bg-white">
+                    <h2 class="mt-0 mb-10 capitalize">widgets control</h2>
+                    <span class="c-grey capitalize fs-16">show /hide widgets</span>
+                    <div class="checks mt-20 mb-20 ">
+                        <div class="box pt-10 pb-10">
+                            <input type="checkbox" name="" id="draft" checked>
+                            <label for="draft" class="capitalize position-relative pointer">quick draft</label>
+                        </div>
+                        <div class="box pt-10 mb-15">
+                            <input type="checkbox" name="" id="target" checked>
+                            <label for="target" class="capitalize position-relative pointer">yearly targets</label>
+                        </div>
+                        <div class="box pt-10 mb-15">
+                            <input type="checkbox" name="" id="Tickets" checked>
+                            <label for="Tickets" class="capitalize position-relative pointer">Tickets Statistics</label>
+                        </div>
+                        <div class="box pt-10 mb-15">
+                            <input type="checkbox" name="" id="News" checked>
+                            <label for="News" class="capitalize position-relative pointer">Latest News </label>
+                        </div>
+                        <div class="box pt-10 mb-15">
+                            <input type="checkbox" name="" id="Tasks" >
+                            <label for="Tasks" class="capitalize position-relative pointer">Latest Tasks</label>
+                        </div>
+                        <div class="box pt-10 mb-15">
+                            <input type="checkbox" name="" id="search" checked>
+                            <label for="search" class="capitalize position-relative pointer">top search items</label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="backup-manager rad-10 p-20 bg-white">
+                    <h2 class="mt-0 mb-10 capitalize">backup manager </h2>
+                    <span class="c-grey capitalize fs-16 ">Control Backup Time And Location</span>
+                    <div class="box daily mt-20 mb-15 d-flex align-center">
+                        <input type="radio" id="daily" name="time" checked>
+                        <label for="daily" class="capitalize position-relative pointer">daily</label>
+                    </div>
+                    <div class="box weekly mb-15">
+                        <input type="radio" id="weekly" name="time">
+                        <label for="weekly" class="capitalize position-relative pointer">weekly</label>
+                    </div>
+                    <div class="box monthly  border-bottom pb-15">
+                        <input type="radio" id="monthly" name="time">
+                        <label for="monthly" class="capitalize position-relative pointer">monthly</label>
+                    </div>
+                    <div class="row d-flex align-center txt-c mt-20 ">
+                        <input type="radio" name="servers" id="server-one">
+                        <label for="server-one" class="capitalize rad-10 mb-10 w-full d-block pointer p-15">
+                            <i class="fa-solid fa-server d-block mb-10 "></i>
+                            megaman
+                        </label>
+                        
+                        <input type="radio" name="servers" id="server-two" checked>
+                        <label for="server-two" class="capitalize rad-10 mb-10 w-full mr-10 ml-10 d-block p-15 pointer">
+                            <i class="fa-solid fa-server d-block mb-10 "></i>
+                            zero
+                        </label>
+                        
+                        <input type="radio" name="servers" id="server-three">
+                        <label for="server-three" class="capitalize rad-10 mb-10 w-full d-block p-15 pointer">
+                            <i class="fa-solid fa-server d-block mb-10 "></i>
+                            sigma
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
